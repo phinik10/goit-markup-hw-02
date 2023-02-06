@@ -1,5 +1,39 @@
-body [
-    font-family: "Roboto"
-    font-weight
-]
+body {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+}
+    
+
+.page-header {
+    display: flex;
+    padding: 10px;
+    width: 1440px;
+    height: 72px;
+}
+
+.page-adress. link {
+    color: #434455;
+}
+
+.logo-first {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+.logo-second {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    text-decoration: none;
+}
 
