@@ -12,7 +12,7 @@ body {
     height: 72px;
 }
 
-.page-adress. link {
+.page-adress.link {
     color: #434455;
 }
 
@@ -35,5 +35,14 @@ body {
     letter-spacing: 0.03em;
     color: #2E2F42;
     text-decoration: none;
+}
+
+.site-nav .link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E2F42;
 }
 
