@@ -60,6 +60,10 @@ body {
     background-color: #2E2F42;
 }
 
+.ul {
+    list-style-type: none;
+}
+
 .hero-title {
     font-family: "Roboto";
     font-weight: 700;
