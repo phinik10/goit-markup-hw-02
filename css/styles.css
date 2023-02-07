@@ -52,6 +52,13 @@ body {
     text-decoration: none;
 }
 
+.hero {
+    width: 1440px;
+    height: 600px;
+    left: 0;
+    top: 72px;
+    background-color: #2E2F42;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
