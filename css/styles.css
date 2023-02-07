@@ -59,6 +59,18 @@ body {
     top: 72px;
     background-color: #2E2F42;
 }
+
+.hero-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 494px;
+    height: 120px;
+    top: 260px;
+    left: 473px;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
