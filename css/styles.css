@@ -75,6 +75,19 @@ ul {
     top: 260px;
     left: 473px;
 }
+
+.hero-button{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 105px;
+    height: 24px;
+    display: flex;
+
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
