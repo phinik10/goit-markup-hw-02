@@ -87,7 +87,7 @@ ul {
 }
 
 .hero-button:hover {
-    color: #4D5AE5;
+    background-color: #4D5AE5;
     display: flex;
     padding: 16px 32px;
     width: 169px;
