@@ -28,7 +28,7 @@ body {
     line-height: 24px;
     color: #2E2F42;
 }
-.page-adress.link {
+.page-address.link {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -74,7 +74,7 @@ body {
     height: 24px;
 }
 
-.site-nav {
+.site-nav .link {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
