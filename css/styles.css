@@ -2,6 +2,7 @@ body {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
+    color: #E5E5E5;
 }
     
 
@@ -16,6 +17,7 @@ body {
     top: 0px;
     background: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
+    text-decoration: none;
 }
 
 .page-header .link {
@@ -39,6 +41,7 @@ body {
     left: 940px;
     top: 24px;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .logo-first {
@@ -54,6 +57,7 @@ body {
     text-transform: uppercase;
     width: 44px;
     height: 24px;
+    text-decoration: none;
 }
 .logo-second {
     font-family: "Raleway";
@@ -70,7 +74,7 @@ body {
     height: 24px;
 }
 
-.site-nav .link {
+.site-nav {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -88,6 +92,10 @@ body {
     left: 0;
     top: 72px;
     background-color: #2E2F42;
+    font-size: 56px;
+    line-height: 1,07x;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -109,32 +117,27 @@ ul {
     left: 473px;
 }
 
-.hero-button{
+.hero-button {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+
     color: #FFFFFF;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     letter-spacing: 0.04em;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .hero-button:hover {
     background-color: #4D5AE5;
-    display: flex;
-    align-items: flex-start;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    width: 169px;
-    height: 56px;
-    top: 428px;
-    left: 636px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .visually-hidden {
     position: absolute;
@@ -148,8 +151,6 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-
 
 .text {
     font-family: "Roboto";
@@ -189,7 +190,9 @@ ul {
 }
 
 .image .pic {
-    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    height: auto;
     width: 360px;
     height: 300px;
     background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
