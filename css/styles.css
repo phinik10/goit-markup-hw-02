@@ -189,3 +189,50 @@ ul {
     flex-grow: 0;
 }
 
+.image .pic {
+    box-sizing: border-box;
+    width: 360px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368.jpg);
+    background-blend-mode: soft-light, normal;
+    border: 1px solid #E7E9FC;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-footer {
+    position: absolute;
+    width: 1440px;
+    height: 310px;
+    left: 0px;
+    top: 2280px;
+    background: #2E2F42;
+}
+
+.text-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2418px;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
