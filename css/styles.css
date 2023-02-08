@@ -86,7 +86,16 @@ ul {
     width: 105px;
     height: 24px;
     display: flex;
+}
 
+.hero-button:hover {
+    color: #4D5AE5;
+    display: flex;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    top: 428px;
+    left: 636px;
 }
 .visually-hidden {
     position: absolute;
