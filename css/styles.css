@@ -51,13 +51,13 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:focus {
     color: var(--pressed-state);
 
 }
 
 .contact-link:hover,
-.contact-link:active {
+.contact-link:focus {
     color: var(--pressed-state); 
 }
 
@@ -189,7 +189,7 @@ ul {
 .item-btn:hover,
 .item-btn:focus {
     background: var(--pressed-state);
-    color: var(--accent);
+    color: var(--white);
 }
 
 .service {
